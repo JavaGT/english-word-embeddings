@@ -1,10 +1,11 @@
 {
   "name": "english-word-embeddings",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Words were obtained from the ChatGPT prompt \"create lists of words for animals, verbs, colours, shapes, adjectives, computer science, education, art, insects, history and cooking\"",
   "main": "main.mjs",
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "llama-node": "^0.0.18"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
